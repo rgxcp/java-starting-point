@@ -8,8 +8,9 @@ We got "rm -rf"-ed a lot of times. We don't want to spend our precious time crea
 
 1. UNIX-like system only (sorry Windows users).
 2. [Java](https://java.com/en/download/help/download_options.html)
-3. [Intellij IDEA](https://www.jetbrains.com/idea/download/)
+3. [Gradle](https://gradle.org/releases/)
 4. [JUnit](https://junit.org/junit5/)
+5. [Intellij IDEA](https://www.jetbrains.com/idea/download/)
 
 ## How to Run the Script
 
