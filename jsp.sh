@@ -17,13 +17,7 @@ function main () {
 
     echo "INFO: Copying file."
     PROJECT_PATH="${ARGS[1]}/${ARGS[0]}"
-    MAIN_PATH="src/main/java/com/company"
-    TEST_PATH="src/test/java/com/company"
     cp -r src $PROJECT_PATH
-    mv "$PROJECT_PATH/$MAIN_PATH/projectname" "$PROJECT_PATH/$MAIN_PATH/${ARGS[0],,}"
-    mv "$PROJECT_PATH/$TEST_PATH/projectname" "$PROJECT_PATH/$TEST_PATH/${ARGS[0],,}"
-    sed -i "s/projectname/${ARGS[0],,}/" "$PROJECT_PATH/$MAIN_PATH/${ARGS[0],,}/Main.java"
-    sed -i "s/projectname/${ARGS[0],,}/" "$PROJECT_PATH/$TEST_PATH/${ARGS[0],,}/MainTest.java"
 
     echo "INFO: Initializing Git repo."
     cd $PROJECT_PATH

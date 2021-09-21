@@ -18,12 +18,6 @@ TBD.
 
 1. TBD
 
-## How to Run the App
-
-### Using IDE (Intellij IDEA)
-
-1. TBD
-
-### Using Command Line
+## How to Use the Library
 
 1. TBD
