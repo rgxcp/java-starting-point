@@ -1,4 +1,4 @@
-# Bash - Java Starting Point
+# ☕ Bash - Java Starting Point
 
 ## Problem Description
 
